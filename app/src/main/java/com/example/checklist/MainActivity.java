@@ -137,7 +137,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         intent.setData(Uri.parse("mailto:")); //only email should handle this
         intent.putStringArrayListExtra(Intent.EXTRA_TEXT, tasks);
         intent.putExtra(Intent.EXTRA_EMAIL, editTextEmail.getText().toString());
-        intent.putExtra(Intent.EXTRA_SUBJECT, "Message Sent");
+        intent.putExtra(Intent.EXTRA_SUBJECT, "Completed Checklist");
         startActivity(intent);
     }
 }
