@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Checklist</string>
+    <string name="enter_task">Enter task</string>
+    <string name="done">Congrats! All tasks complete</string>
+    <string name="notDone">Tasks still outstanding</string>
+    <string name="clear_tasks">Clear tasks</string>
+    <string name="get_email">Email:</string>
+    <string name="send_email">Email</string>
+</resources>
